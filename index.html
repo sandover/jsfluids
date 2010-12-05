@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<link rel="stylesheet" href="css/fluids.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.5.custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui-1.8.5.custom.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fluidTest.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fluidparticle.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fluidsolver.source.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	
+	<body>
+		<center>
+			move the mouse to make waves...<br />
+			get the source at <a href="http://code.google.com/p/jsfluids/">google code</a>.<br />
+			<div><canvas id="canvas1" width="800" height="600"></canvas></div>
+			<ul>
+				<li><div id="modeButton">switch modes</div></li>
+				<li><div class="sliderName">viscosity: </div><div id="vSlider" class="slider"></div></li>
+				<li><div class="sliderName">fade speed: </div><div id="fadeSlider" class="slider"></div></li>
+				<li><div class="sliderName">color diffusion: </div><div id="colorSlider" class="slider"></div></li>
+				<li><div class="sliderName">delta: </div><div id="deltaSlider" class="slider"></div></li>
+				<li>
+					<div id="format">
+						<input type="checkbox" id="wrapx" /><label for="wrapx">wrap x</label>
+						<input type="checkbox" id="wrapy" /><label for="wrapy">wrap y</label>
+					</div>
+				</li>
+			</ul>
+		</center>
+	</body>
+</html>
